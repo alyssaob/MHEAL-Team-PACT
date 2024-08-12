@@ -370,3 +370,27 @@ footer.dark-mode {
 .current-week td{
     font-weight: bold;
 }
+
+/* Media Queries for Mobile View */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 20px; /* Smaller font for mobile */
+    }
+
+    nav ul li {
+        margin: 0 5px; /* Adjust spacing */
+    }
+
+    nav ul li a {
+        font-size: 12px; /* Smaller font for mobile */
+    }
+
+    .resources-banner ul li {
+        margin: 5px; /* Adjust for mobile */
+    }
+
+    .resources-banner ul li a {
+        font-size: 10px; /* Smaller font for mobile */
+        padding: 4px 8px; /* Adjust padding */
+    }
+}
