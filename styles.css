@@ -372,7 +372,7 @@ footer.dark-mode {
 }
 
 /* Media Queries for Mobile View */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     header h1 {
         font-size: 20px; /* Smaller font for mobile */
     }
@@ -393,4 +393,18 @@ footer.dark-mode {
         font-size: 10px; /* Smaller font for mobile */
         padding: 4px 8px; /* Adjust padding */
     }
+
+    nav ul li {
+        display: block;
+    }
+
+    .resources-banner ul li a {
+        display: block;
+    }
+
+    header h1 {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
 }
